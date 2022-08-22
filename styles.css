@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header-base {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: .3rem;
+  gap: .4rem;
+  background-color: #4B01D1;
+  color: #D7B7FD;
+  font-size: .6rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6202EE;
+  color: #FEFDFF;
+  padding: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.header div {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.header a {
+  color: #FEFDFF;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.header h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+.input-line {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: .7rem 1.5rem;
+}
+
+.label {
+  color: #757575;
+}
+
+.input {
+  width: 80%;
+  border: none;
+  padding: 1rem .5rem;
+  border-bottom: 1px solid #000;
+  font-size: 1rem;
+  background-color: #E8E8E8;
+  border-radius: 0.3rem 0.3rem 0 0;
+}
+
+.input-alt {
+  width: 80%;
+  border: none;
+  padding: 1rem .5rem;
+  border-bottom: none;
+  border: 1px solid #757575;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #757575;
+  border-radius: 0.3rem;
+}
+
+.phone {
+  width: 48.5%;
+}
+
+.phone-type {
+  width: 25%;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.address .input, .address .input-alt {
+  width: 90%;
+}
+
+.state-zip {
+  display: flex;
+  gap: 1rem;
+  width: 97%;
+}
+
+.birthday {
+  width: 82%;
+}
+
+input[type="date"] {
+  color: #757575;
+}

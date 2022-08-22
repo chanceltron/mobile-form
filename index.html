@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script
+      src="https://kit.fontawesome.com/f2f60a2003.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-base">
+          <i class="fa-solid fa-square"></i>
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-play"></i>
+        </div>
+        <div class="header">
+          <div>
+            <a href="#">&#9776;</a>
+            <h2>Contacts</h2>
+          </div>
+          <div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </div>
+      </header>
+
+      <form action="submit">
+        <div class="input-line">
+          <label class="label" for="name"
+            ><i class="fa-solid fa-user"></i
+          ></label>
+          <input
+            class="input"
+            id="name"
+            name="name"
+            type="text"
+            placeholder="Name"
+          />
+        </div>
+        <div class="input-line">
+          <label for="number" class="label"
+            ><i class="fa-solid fa-phone"></i
+          ></label>
+          <input type="number" class="input-alt phone" />
+          <select class="input-alt phone-type" name="label" id="label">
+            <option value="work">Label</option>
+            <option value="work">Work</option>
+            <option value="home">Home</option>
+            <option value="mobile">Mobile</option>
+          </select>
+        </div>
+        <div class="input-line">
+          <label for="address" class="label"
+            ><i class="fa-solid fa-location-dot"></i
+          ></label>
+          <div class="address">
+            <input type="text" class="input" placeholder="Address" />
+            <input type="text" class="input-alt" placeholder="City" />
+            <div class="state-zip">
+              <select class="input-alt" name="state" id="state">
+                <option value="#">State</option>
+                <option value="AL">Alabama</option>
+                <option value="AK">Alaska</option>
+                <option value="AZ">Arizona</option>
+                <option value="AR">Arkansas</option>
+                <option value="CA">California</option>
+                <option value="CO">Colorado</option>
+                <option value="CT">Connecticut</option>
+                <option value="DE">Delaware</option>
+                <option value="DC">District Of Columbia</option>
+                <option value="FL">Florida</option>
+                <option value="GA">Georgia</option>
+                <option value="HI">Hawaii</option>
+                <option value="ID">Idaho</option>
+                <option value="IL">Illinois</option>
+                <option value="IN">Indiana</option>
+                <option value="IA">Iowa</option>
+                <option value="KS">Kansas</option>
+                <option value="KY">Kentucky</option>
+                <option value="LA">Louisiana</option>
+                <option value="ME">Maine</option>
+                <option value="MD">Maryland</option>
+                <option value="MA">Massachusetts</option>
+                <option value="MI">Michigan</option>
+                <option value="MN">Minnesota</option>
+                <option value="MS">Mississippi</option>
+                <option value="MO">Missouri</option>
+                <option value="MT">Montana</option>
+                <option value="NE">Nebraska</option>
+                <option value="NV">Nevada</option>
+                <option value="NH">New Hampshire</option>
+                <option value="NJ">New Jersey</option>
+                <option value="NM">New Mexico</option>
+                <option value="NY">New York</option>
+                <option value="NC">North Carolina</option>
+                <option value="ND">North Dakota</option>
+                <option value="OH">Ohio</option>
+                <option value="OK">Oklahoma</option>
+                <option value="OR">Oregon</option>
+              </select>
+              <input type="number" placeholder="  Zip" class="input" />
+            </div>
+          </div>
+        </div>
+        <div class="input-line">
+          <label class="label" for="email"
+            ><i class="fa-solid fa-envelope"></i
+          ></label>
+          <input type="email" class="input-alt" placeholder="Email" />
+        </div>
+        <div class="input-line">
+          <label for="birthday" class="label"
+            ><i class="fa-solid fa-cake-candles"></i
+          ></label>
+          <input class="input birthday" type="date" placeholder="Birthday" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
